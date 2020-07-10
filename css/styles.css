@@ -1,0 +1,78 @@
+
+@font-face 
+
+{  font-family: OpenSans-Light ; 
+    src: url('fonts/OpenSans-Light.ttf') }
+
+
+div.background {
+    background-color: white;
+}
+
+div {
+    text-align: center;
+    font-family: 'OpenSans-Light';
+}
+
+body {
+    background-color: black;
+    line-height: 30px;
+}
+
+div.footer {
+    background-color: black;
+    color: white;
+}
+
+div.navigation {
+    text-align: center;
+}
+
+nav.Acceuil ul li {
+     margin: 0 ;
+    padding-left: 50;
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    line-height: 40px ;
+    text-align: center;
+    list-style-type: none
+}
+
+img.haut {
+    width: 45px;
+    height: 45px;
+}
+
+    a:hover {
+        color: red
+    }
+
+    nav.Acceuil ul li a {
+        display: block ;
+        color: white;
+        text-decoration: none ;
+    }
+
+    nav.Acceuil ul li a:hover {
+    background-color: red;
+    opacity: 0,3         
+            }
+
+nav.Acceuil {
+    color:black;
+}
+
+h1 , h2 , div.footer {
+    text-transform: uppercase;
+}
+
+nav.Acceuil ul li ul li {
+    display: none
+}
+
+nav.Acceuil ul li:hover ul li {
+    display: block
+} 
+
