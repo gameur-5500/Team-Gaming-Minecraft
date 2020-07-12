@@ -2,21 +2,33 @@
 @font-face 
 
 {  font-family: OpenSans-Light ; 
-    src: url('fonts/OpenSans-Light.ttf') }
+    src: url('fonts/OpenSans-Light.ttf') 
+    }
 
-
+@font-face {
+    font-family: OpenSans-Bold ; 
+    src: url('fonts/OpenSans-Bold.ttf')
+}    
+    
 div.background {
     background-color: white;
 }
 
-div {
+img {
+    height: auto ;
+    max-width: 100%;
+    border: 2px solid black 
+}
+
+div.body {
     text-align: center;
     font-family: 'OpenSans-Light';
 }
 
-img {
-    height: auto ;
-    max-width: 100%
+h1.body {
+    text-align: center;
+    font-family: 'OpenSans-Bold';
+    font-weight: 500;
 }
 
 img.haut1 {
@@ -35,6 +47,8 @@ body {
 div.footer {
     background-color: black;
     color: white;
+    text-align: center;
+    font-family: 'OpenSans-Light';
 }
 
 nav.Acceuil ul li {
@@ -55,8 +69,29 @@ img.haut {
 }
 
     a:hover {
-        color: red
+        color: gray
     }
+
+    a {
+        color: green;
+    }
+
+    a.navigation2 {
+        position: absolute;
+        right: 185px;
+        top: 62px;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    a.navigation3 {
+        position: absolute;
+        right: 50px;
+        top: 62px;
+        text-decoration: none;
+        font-size: 18px;
+}
+    
 
     nav.Acceuil ul li a {
         display: block ;
@@ -72,6 +107,7 @@ img.haut {
     div.navigation {
         background-color: black;
         color: white;
+        font-family: 'OpenSans-Light' ;
     }        
 
 h1 , h2 , div.footer {
@@ -86,3 +122,23 @@ nav.Acceuil ul li:hover ul li {
     display: block
 } 
 
+@media screen and (max-width: 856px) {
+    a.navigation2 {
+        position: absolute;
+        right: 90px;
+        top: 30px;
+        text-decoration: none;
+    } 
+
+    a.navigation3 {
+        position: absolute;
+        right: 5px;
+        top: 30px;
+        text-decoration: none;
+    }
+
+    img.haut1 {
+        width: 200px;
+    }
+
+}
