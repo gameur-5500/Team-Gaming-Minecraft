@@ -14,6 +14,19 @@ div {
     font-family: 'OpenSans-Light';
 }
 
+img {
+    height: auto ;
+    max-width: 100%
+}
+
+img.haut1 {
+    width: 370px;
+}
+     
+div.nouveau {
+    display: none;
+}
+
 body {
     background-color: black;
     line-height: 30px;
@@ -22,10 +35,6 @@ body {
 div.footer {
     background-color: black;
     color: white;
-}
-
-div.navigation {
-    text-align: center;
 }
 
 nav.Acceuil ul li {
@@ -60,9 +69,10 @@ img.haut {
     opacity: 0,3         
             }
 
-nav.Acceuil {
-    color:black;
-}
+    div.navigation {
+        background-color: black;
+        color: white;
+    }        
 
 h1 , h2 , div.footer {
     text-transform: uppercase;
