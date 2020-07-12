@@ -125,16 +125,18 @@ nav.Acceuil ul li:hover ul li {
 @media screen and (max-width: 856px) {
     a.navigation2 {
         position: absolute;
-        right: 90px;
-        top: 30px;
+        right: 51px;
+        top: 13px;
         text-decoration: none;
+        font-size: 16px;
     } 
 
     a.navigation3 {
         position: absolute;
         right: 5px;
-        top: 30px;
+        top: 35px;
         text-decoration: none;
+        font-size: 16px;
     }
 
     img.haut1 {
