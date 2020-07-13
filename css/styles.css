@@ -14,7 +14,15 @@ div.background {
     background-color: white;
 }
 
-img {
+div.navigationActus {
+    margin-right: -6px;
+    background-color: black;
+    color: white;
+    font-family: 'OpenSans-Light' ;
+    margin-left: -6px;
+}
+
+img.hautx2 {
     height: auto ;
     max-width: 100%;
     border: 2px solid black 
@@ -25,10 +33,15 @@ div.body {
     font-family: 'OpenSans-Light';
 }
 
-h1.body {
+h1{
     text-align: center;
     font-family: 'OpenSans-Bold';
     font-weight: 500;
+}
+
+p {
+    font-family: 'OpenSans-Light';
+    text-align: center;
 }
 
 img.haut1 {
@@ -39,7 +52,7 @@ div.nouveau {
     display: none;
 }
 
-body {
+body.Acceuil {
     background-color: black;
     line-height: 30px;
 }
@@ -49,18 +62,6 @@ div.footer {
     color: white;
     text-align: center;
     font-family: 'OpenSans-Light';
-}
-
-nav.Acceuil ul li {
-     margin: 0 ;
-    padding-left: 50;
-    float: left;
-    width: 200px;
-    height: 40px;
-    background-color: black;
-    line-height: 40px ;
-    text-align: center;
-    list-style-type: none
 }
 
 img.haut {
@@ -74,6 +75,7 @@ img.haut {
 
     a {
         color: green;
+        font-size: 16px;
     }
 
     a.navigation2 {
@@ -91,36 +93,24 @@ img.haut {
         text-decoration: none;
         font-size: 18px;
 }
-    
-
-    nav.Acceuil ul li a {
-        display: block ;
-        color: white;
-        text-decoration: none ;
-    }
-
-    nav.Acceuil ul li a:hover {
-    background-color: red;
-    opacity: 0,3         
-            }
-
     div.navigation {
         background-color: black;
         color: white;
         font-family: 'OpenSans-Light' ;
-    }        
-
+    }       
+    
 h1 , h2 , div.footer {
     text-transform: uppercase;
 }
 
-nav.Acceuil ul li ul li {
-    display: none
+p {
+    font-size: 18px;
 }
 
-nav.Acceuil ul li:hover ul li {
-    display: block
-} 
+div.footer2 {
+    border-top: 2px solid black ;
+    text-align: center;
+}
 
 @media screen and (max-width: 856px) {
     a.navigation2 {
