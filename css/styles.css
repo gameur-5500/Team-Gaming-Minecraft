@@ -32,9 +32,17 @@ div.navigationActus {
     cursor: pointer;
 }
 #toutemaison {
-    padding-bottom: 3px;
     padding-top: 3px;
 }
+
+#toutemaison2 {
+    padding-bottom: 3px;
+    padding-top: 3px;
+    background-color: #ededed;
+    margin-left: -6px;
+    margin-right: -6px;
+}
+
 
 img.hautx2 {
     height: auto ;
@@ -103,7 +111,7 @@ img.haut {
     a.navigation2 {
         position: absolute;
         right: 185px;
-        top: 150px;
+        top: 130px;
         text-decoration: none;
         font-size: 18px;
     }
@@ -111,7 +119,7 @@ img.haut {
     a.navigation3 {
         position: absolute;
         right: 50px;
-        top: 150px;
+        top: 130px;
         text-decoration: none;
         font-size: 18px;
 }
@@ -136,6 +144,15 @@ p {
 div.footer2 {
     border-top: 2px solid black ;
     text-align: center;
+    position: relative;
+    bottom: -90px;
+}
+
+div.footer3 {
+    border-top: 2px solid black ;
+    text-align: center;
+    position: relative;
+    bottom: 9px;
 }
 
 #responsive2 {
@@ -145,9 +162,13 @@ div.footer2 {
 #responsive3 {
     position: absolute;
     right: 20px;
-    top: 130px;
+    top: 110px;
     font-size: 16px;
     cursor: pointer;
+}
+
+body.actu {
+   background-image: url(img/PSX.png);
 }
 
 li {
@@ -162,6 +183,14 @@ li {
         text-decoration: none;
         font-size: 16px;
     } 
+
+    #toutemaison2 {
+        padding-bottom: 3px;
+        padding-top: 3px;
+        background-color: #ededed;
+        margin-left: -0px;
+        margin-right: -0px;
+    }
 
     a.navigation3 {
         position: absolute;
@@ -187,4 +216,18 @@ li {
         width: 200px;
     }
 
+    div.navigationActus {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 529px) {
+    #responsive3 {
+        position: absolute;
+        right: 20px;
+        top: 155px;
+        font-size: 16px;
+        cursor: pointer;
+    }
 }
