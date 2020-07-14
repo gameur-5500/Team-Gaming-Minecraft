@@ -14,23 +14,74 @@
  
    <div class="background">
         
-            <header>
+    <div id="toutemaison">
+        
+        <p><i class="fas fa-home" id="maison"></i>Restez chez vous ! , ne mettez pas votre vie en danger<button id="maison2"><i class="fas fa-times"></i></button></p>
+        
+        <script>
+            const contents = document.getElementById('maison2');
+            contents.addEventListener('click', function() {          
+            const contents2 = document.getElementById('toutemaison');
+            contents2.style.display = "none"; 
+         
+                const contents3 = document.getElementById('navigationmaison');
+                contents3.style.top = '60px' ;
+                const contents4 = document.getElementById('navigationmaison2');
+                contents4.style.top = '60px';
+                const contents5 = document.getElementById('responsive3');
+                contents5.style.top = '43px'
+            
+});
+        </script>
+    </div>        
+    <header>
 
                     <nav class="Acceuil">
                           
+                        <p>
                         <div class="navigation">
                             <a href="#"><img class="haut1" src="css/img/Minecraft-mon-logo-1c.png"></a>
-                            <a class="navigation2" href="actualites.html">Actualites</a>
-                            <a class="navigation3" href="telechargement.html">Telechargement</a>
+                            <a class="navigation2" id="navigationmaison" href="actualites.html">Actualites</a>
+                            <a class="navigation3" id="navigationmaison2" href="telechargement.html">Telechargement</a>
                         </div>
-    
+                        </p>
+
                     </nav>
 
-                    <div class="nouveau">
-                        <img class="haut" src="css/img/Home.png">
-                        <img class="haut" src="css/img/Livre.png">
-                        <img class="haut" src="css/img/Fleche.png">
-                  </div>
+                    <div class="responsive">
+                        
+                       <div class="haut3"><a href="#"><img class="haut1" src="css/img/Minecraft-mon-logo-1c.png"></a></div>
+                        <ul>
+                            <li>
+                                <button id="responsive3">
+                                    <i class="fas fa-bars"></i>
+                                </button>
+                                <div id="responsive2">
+                            <ul>
+                                <li>
+                                    <a class="responsivea" href="https://gameur-5500.github.io/Team-Gaming-V2/">Notre Site Officiel</a>
+                                </li>
+                                <li>
+                                    <a class="responsivea" href="actualites.html">Actualités</a>
+                                </li>
+                                <li>
+                                    <a class="responsivea" href="telechargement.html">Telechargez les mods Minecraft</a>
+                                </li>
+                            </ul>
+                            </div>
+                        </li>
+                    </ul>
+                        
+                    </div>
+
+                    <script>
+                        const responsive = document.getElementById('responsive3');
+                        responsive.addEventListener('click', function(event) {          
+                        const responsive2 = document.getElementById('responsive2');
+                        responsive2.style.display = "block"; 
+     }); 
+      
+                    </script>
    
                 </header>
   
@@ -39,7 +90,7 @@
   
   <br>
 
-  <h1 class="body">BIENVENUE DANS <br> TEAM GAMING MINECRAFT</h1>
+  <h1 class="body">BIENVENUE DANS <br> TEAM GAMING MINECRAFT <i class="far fa-laugh-beam"></i></h1>
 
   <br>
 
@@ -63,7 +114,7 @@
            Acheter minecraft
        </h2>
        <p>
-        Pour acheter minecraft java édition vous devez cliquer sur <a href="">ce lien</a> pour vous rendre dans le site de minecraft aprés choigissez : ordinateur - votre systeme d'exploitation - minecraft java edition - passez votre commande et essaiez le jeu
+        Pour acheter minecraft java édition vous devez cliquer sur <a href="">ce lien</a> pour vous rendre dans le site de minecraft aprés choigissez : ordinateur - votre systeme d'exploitation - minecraft java edition - passez votre commande et essaiez le jeu <i class="fas fa-gamepad"></i> 
        </p>
 
         <br>

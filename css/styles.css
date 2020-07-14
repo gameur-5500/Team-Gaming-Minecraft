@@ -22,6 +22,20 @@ div.navigationActus {
     margin-left: -6px;
 }
 
+#maison {
+    color: gray;
+    padding-right: 11px;
+}
+
+#maison2 {
+    margin-left: 11px;
+    cursor: pointer;
+}
+#toutemaison {
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+
 img.hautx2 {
     height: auto ;
     max-width: 100%;
@@ -48,8 +62,11 @@ img.haut1 {
     width: 370px;
 }
      
-div.nouveau {
+div.responsive {
     display: none;
+    background-color: black;
+    color: green;
+    font-size: 16px;
 }
 
 body.Acceuil {
@@ -62,6 +79,11 @@ div.footer {
     color: white;
     text-align: center;
     font-family: 'OpenSans-Light';
+}
+
+a.responsivea {
+    font-family: 'OpenSans-Light';
+    text-decoration: none;
 }
 
 img.haut {
@@ -81,7 +103,7 @@ img.haut {
     a.navigation2 {
         position: absolute;
         right: 185px;
-        top: 62px;
+        top: 150px;
         text-decoration: none;
         font-size: 18px;
     }
@@ -89,7 +111,7 @@ img.haut {
     a.navigation3 {
         position: absolute;
         right: 50px;
-        top: 62px;
+        top: 150px;
         text-decoration: none;
         font-size: 18px;
 }
@@ -103,6 +125,10 @@ h1 , h2 , div.footer {
     text-transform: uppercase;
 }
 
+div.haut3 {
+    text-align: center;
+}
+
 p {
     font-size: 18px;
 }
@@ -112,11 +138,27 @@ div.footer2 {
     text-align: center;
 }
 
+#responsive2 {
+    display:none
+}
+
+#responsive3 {
+    position: absolute;
+    right: 20px;
+    top: 130px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+}
+
 @media screen and (max-width: 856px) {
     a.navigation2 {
         position: absolute;
         right: 51px;
-        top: 13px;
+        top: 120px;
         text-decoration: none;
         font-size: 16px;
     } 
@@ -124,9 +166,21 @@ div.footer2 {
     a.navigation3 {
         position: absolute;
         right: 5px;
-        top: 35px;
+        top: 140px;
         text-decoration: none;
         font-size: 16px;
+    }
+
+    img.haut1 {
+        text-align: center;
+    }
+
+    div.navigation {
+        display: none;
+    }
+
+    div.responsive {
+        display: block;
     }
 
     img.haut1 {
