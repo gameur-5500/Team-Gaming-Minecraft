@@ -72,10 +72,13 @@
             responsive2.style.display="none";
             const responsive3 = document.getElementById('responsive34');
             responsive3.style.borderBottom = 'none';
-            }else{
+            responsive.innerHTML = '<i class="fas fa-bars"></i>';
+            }
+            else{
             responsive2.style.display="block";
             const responsive3 = document.getElementById('responsive34');
             responsive3.style.borderBottom = '1px solid white';
+            responsive.innerHTML = '<i class="fas fa-times"></i>'
             }
 }); 
     </script>
