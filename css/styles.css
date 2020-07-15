@@ -165,10 +165,12 @@ div.footer3 {
     top: 110px;
     font-size: 16px;
     cursor: pointer;
+    background-color: white;
 }
 
 body.actu {
    background-image: url(img/PSX.png);
+    line-height: 30px;
 }
 
 li {
@@ -210,6 +212,7 @@ li {
 
     div.responsive {
         display: block;
+        background-color: black;
     }
 
     img.haut1 {
@@ -222,11 +225,21 @@ li {
 
 }
 
+@media screen and (max-width: 530px) {
+    #responsive3 {
+        position: absolute;
+        right: 20px;
+        top: 130px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
+
 @media screen and (max-width: 529px) {
     #responsive3 {
         position: absolute;
         right: 20px;
-        top: 155px;
+        top: 140px;
         font-size: 16px;
         cursor: pointer;
     }
