@@ -75,11 +75,17 @@
                     <script>
                         const responsive = document.getElementById('responsive3');
                         responsive.addEventListener('click', function() {          
-                        const responsive2 = document.getElementById('responsive2');
-                        responsive2.style.display = "block"; 
-                        const responsive3 = document.getElementById('responsive34');
-                        responsive3.style.borderBottom = '1px solid white';
-            }); 
+                            const responsive2 = document.getElementById('responsive2');
+                            if(responsive2.style.display=="block"){
+                            responsive2.style.display="none";
+                            const responsive3 = document.getElementById('responsive34');
+                            responsive3.style.borderBottom = 'none';
+                            }else{
+                            responsive2.style.display="block";
+                            const responsive3 = document.getElementById('responsive34');
+                            responsive3.style.borderBottom = '1px solid white';
+                            }
+  }); 
                     </script>
    
                 </header>
