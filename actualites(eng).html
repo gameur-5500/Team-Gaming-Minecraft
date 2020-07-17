@@ -70,10 +70,21 @@
                  <li>
                      <a class="responsivea" href="#">News</a>
                  </li>
-                 <li style="border-bottom: 10px black solid;">
+                 <li>
                      <a class="responsivea" href="telechargement(eng).html">Download the minecraft mods</a>
                  </li>
-             </ul>
+                 <li id="langue35">
+                    <ul>
+                        <li style="border-bottom: black 10px solid;">
+                            <i class="fas fa-globe" style="padding-right: 5px;color: white;"></i><button style="color: white;
+                            background-color: black;">English</button>
+                              <ul>
+                                  <li id="langue37" style="display: none;">
+                                    <a href="actualites.html" style="text-decoration: none;color: white;">Français</a>
+                                  </li>
+                              </ul>
+                        </li>
+                    </ul>
              </div>
          </li>
      </ul>
@@ -98,6 +109,17 @@
             }
 }); 
     </script>
+    <script>
+        const langue = document.getElementById('langue35');
+        langue.addEventListener('click', function() {          
+        const langue2 = document.getElementById('langue37');
+        if(langue2.style.display=="block"){
+        langue2.style.display="none";
+        }else{
+        langue2.style.display="block";
+        }  });
+</script>
+
  </header>
   
 <body class="actu">

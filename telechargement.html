@@ -76,7 +76,18 @@
                      <li style="border-bottom: 10px black solid;">
                          <a class="responsivea" href="telechargement.html">Telechargez les mods Minecraft</a>
                      </li>
-                 </ul>
+                     <li id="langue35">
+                        <ul>
+                            <li style="border-bottom: black solid 10px;">
+                                <i class="fas fa-globe" style="padding-right: 5px;color: white;"></i><button style="color: white;
+                                background-color: black;">Français</button>
+                                  <ul>
+                                      <li id="langue37" style="display: none;">
+                                        <a href="telechargement(eng).html" style="text-decoration: none;color: white;">English</a>
+                                      </li>
+                                  </ul>
+                            </li>
+                        </ul>
                  </div>
              </li>
          </ul>
@@ -100,6 +111,16 @@
                 }
 }); 
         </script>
+        <script>
+            const langue = document.getElementById('langue35');
+            langue.addEventListener('click', function() {          
+            const langue2 = document.getElementById('langue37');
+            if(langue2.style.display=="block"){
+            langue2.style.display="none";
+            }else{
+            langue2.style.display="block";
+            }  });
+    </script>
       
     </header>
    

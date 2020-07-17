@@ -78,15 +78,27 @@
                      <li>
                          <a class="responsivea" href="actualites(eng).html">News</a>
                      </li>
-                     <li style="border-bottom: 10px black solid;">
+                     <li>
                          <a class="responsivea" href="#">Download the minecraft mods</a>
                      </li>
-                 </ul>
-                 </div>
-             </li>
-         </ul>
-             
+                            <li id="langue35">
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-globe" style="padding-right: 5px;color: white;"></i><button style="color: white;
+                                        background-color: black;">English</button>
+                                          <ul>
+                                              <li id="langue37" style="display: none;">
+                                                <a href="telechargement.html" style="text-decoration: none;color: white;">Français</a>
+                                              </li>
+                                          </ul>
+                                    </li>
+                                </ul>
+                    </div>
+                            </li>
+                            </ul>
+                            
          </div>
+        </div>
 
          <script>
             const responsive = document.getElementById('responsive3');
@@ -103,7 +115,18 @@
                 responsive3.style.borderBottom = '1px solid white';
                 responsive.innerHTML = '<i class="fas fa-times"></i>'
                 }
-}); 
+});
+        </script>
+        
+        <script>
+                const langue = document.getElementById('langue35');
+                langue.addEventListener('click', function() {          
+                const langue2 = document.getElementById('langue37');
+                if(langue2.style.display=="block"){
+                langue2.style.display="none";
+                }else{
+                langue2.style.display="block";
+                }  });
         </script>
       
     </header>

@@ -8,7 +8,11 @@
 @font-face {
     font-family: OpenSans-Bold ; 
     src: url('fonts/OpenSans-Bold.ttf')
-}   
+}  
+
+li.langue35 ul li ul li#langue37 {
+    display: none;
+}
 
 div.langue34 ul li {
     position: absolute;
@@ -17,7 +21,7 @@ right: 365px;
 text-decoration: none;
 }
 
-div.langue34 ul li ul li {
+div.langue34 ul li ul li{
     position: absolute;
     top: 170px;
     right: 365px;
@@ -25,7 +29,7 @@ div.langue34 ul li ul li {
     display: none;
 }
 
-div.langue34 ul li:hover ul li {
+div.langue34 ul li:hover ul li{
     display: block;
 }
     
