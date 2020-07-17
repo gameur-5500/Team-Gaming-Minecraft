@@ -8,7 +8,26 @@
 @font-face {
     font-family: OpenSans-Bold ; 
     src: url('fonts/OpenSans-Bold.ttf')
-}    
+}   
+
+div.langue34 ul li {
+    position: absolute;
+top: 170px;
+right: 365px;
+text-decoration: none;
+}
+
+div.langue34 ul li ul li {
+    position: absolute;
+    top: 170px;
+    right: 365px;
+    text-decoration: none;
+    display: none;
+}
+
+div.langue34 ul li:hover ul li {
+    display: block;
+}
     
 div.background {
     background-color: white;
@@ -103,6 +122,11 @@ img.haut {
         color: gray
     }
 
+    #langue2 {
+        display: none;
+        background-color: black;
+    }
+
     a {
         color: green;
         font-size: 16px;
@@ -110,7 +134,7 @@ img.haut {
 
     a.navigation2 {
         position: absolute;
-        right: 185px;
+        right: 410px;
         top: 130px;
         text-decoration: none;
         font-size: 18px;
@@ -118,7 +142,7 @@ img.haut {
 
     a.navigation3 {
         position: absolute;
-        right: 50px;
+        right: 150px;
         top: 130px;
         text-decoration: none;
         font-size: 18px;
