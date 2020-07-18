@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="icon" href="css/img/logo creeper.ico" />
     <script src="https://kit.fontawesome.com/c7b012a4c4.js" crossorigin="anonymous"></script>
+    <meta name="description" content="Rejoignez notre serveur Team gaming minecraft et amusez-vous bien avec des amis">
 
 </head>
 
@@ -29,7 +30,18 @@
                 const contents4 = document.getElementById('navigationmaison2');
                 contents4.style.top = '60px';
                 const contents5 = document.getElementById('responsive3');
-                contents5.style.top = '43px'});
+                contents5.style.top = '43px';
+                const contents6 = document.getElementById('navigationmaison5');
+                contents6.style.top = '60px' ; 
+                const contents7 = document.getElementById('navigationmaison6');
+                contents7.style.top = '60px' ;
+                const contents8 = document.getElementById('navigationmaison7');
+                contents8.style.top = '69px' ;
+                const contents9 = document.getElementById('navigationmaison8');
+                contents9.style.top = '-109px' ;
+                const contents10 = document.getElementById('navigationmaison9');
+                contents10.style.top = '-250px' ;
+                contents10.style.right = '-679px';});
     </script>
     </div>        
     <header>
@@ -41,15 +53,14 @@
                 <a style="position: absolute;top: 130px;right: 140px;color: white;" id="navigationmaison5">-</a>
                 <a class="navigation3" id="navigationmaison2" href="telechargement.html">Telechargement</a>
                 <a style="position: absolute;top: 130px;right: 290px;color: white;" id="navigationmaison6">-</a>
-                <i class="fas fa-globe" style="position: absolute;top: 139px;right: 116px;"></i>
-                
+                <i class="fas fa-globe" style="position: absolute;top: 139px;right: 116px;" id="navigationmaison7"></i>
                 <div class="langue34">
                 <ul> 
                     <li>
-                        <a href="#" style="position: absolute;top: -40px;right: -315px; text-decoration: none;">Français</a>
+                        <a href="#" style="position: absolute;top: -40px;opacity: 0,8;right: -315px; text-decoration: none;" id="navigationmaison8">Français</a>
                         <ul>
                             <li>
-                                <a href="index(eng).html" style="position: absolute;top: -184px;right: -670px; text-decoration: none;">English</a>
+                                <a href="index(eng).html" style="position: absolute;top: -184px;right: -670px; text-decoration: none;" id="navigationmaison9">English</a>
                             </li>
                         </ul>
                     </li>
@@ -100,11 +111,13 @@
                         responsive.addEventListener('click', function() {          
                             const responsive2 = document.getElementById('responsive2');
                             if(responsive2.style.display=="block"){
+                            responsive.style.transition = 'all 1.0s ease';
                             responsive2.style.display="none";
                             const responsive3 = document.getElementById('responsive34');
                             responsive3.style.borderBottom = 'none';
                             responsive.innerHTML = '<i class="fas fa-bars"></i>';
                             }else{
+                            responsive.style.transition = 'all 1.0s ease';
                             responsive2.style.display="block";
                             const responsive3 = document.getElementById('responsive34');
                             responsive3.style.borderBottom = '1px solid white';
@@ -140,8 +153,9 @@
        
     <br><br>
 
-    
-    
+    <div>
+    <a href="#top" id="miaou" style="background-color: black;padding-right: 11px;padding-left: 11px;border-radius: 5px;bottom: 40px;right: 20px;z-index: 999;height: 40px;position: fixed;padding-top: 10px;opacity: 0.8;"><i class="fas fa-chevron-up"></i></a>
+</div>
     <h2>Présentation</h2>
 
     <p> - Nous avons refait ce serveur minecraft 
@@ -154,7 +168,7 @@
            Acheter minecraft
        </h2>
        <p>
-        Pour acheter minecraft java édition vous devez cliquer sur <a href="https://www.minecraft.net/fr-fr/get-minecraft" target="_blanck">ce lien</a> pour vous rendre dans le site de minecraft aprés choigissez : ordinateur - votre systeme d'exploitation (soit <i class="fab fa-windows" style="padding-left: 4px;"></i> windows , <i class="fab fa-apple"></i> mac ou <i class="fab fa-linux"></i> linux ) - minecraft java edition (faites attention le serveur est disponible que sur cette version en se moment) - passez votre commande et essaiez le jeu <i class="fas fa-gamepad"></i>  
+        Pour acheter minecraft java édition vous devez cliquer sur <a href="https://www.minecraft.net/fr-fr/get-minecraft" target="_blanck">ce lien</a> pour vous rendre dans le site de minecraft aprés choigissez : ordinateur - votre systeme d'exploitation (soit <i class="fab fa-windows" style="padding-left: 4px;"></i> windows , <i class="fab fa-apple"></i> mac ou <i class="fab fa-linux"></i> linux ) - minecraft java edition (faites attention le serveur est disponible que sur cette version en se moment) - passez votre commande et essayez le jeu <i class="fas fa-gamepad"></i>  
        </p>
 <br>
        <p>
