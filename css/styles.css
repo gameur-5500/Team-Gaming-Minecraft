@@ -112,6 +112,15 @@ div.footer {
     font-family: 'OpenSans-Light';
 }
 
+div.trait {
+    background: linear-gradient(to right,#317511 0%,#3e83d7 100%);
+    border-radius: 5px;
+    width: 100px;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 a.responsivea {
     font-family: 'OpenSans-Light';
     text-decoration: none;
