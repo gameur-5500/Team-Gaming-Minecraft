@@ -21,6 +21,10 @@ right: 365px;
 text-decoration: none;
 }
 
+ul li ul li div.apparaitre:hover {
+    display: block;
+}
+
 div.langue34 ul li ul li{
     position: absolute;
     top: 170px;
@@ -133,7 +137,7 @@ img.haut {
 
     a:hover {
         -webkit-transition: all 0.91s ease;
-        color: #4a5258;
+        color: #0177ba;
     }
 
     #langue2 {
@@ -207,12 +211,21 @@ div.footer3 {
 }
 
 body.actu {
-   background-image: url(img/PSX.png);
+   background-image: url(img/PS4.png);
     line-height: 30px;
 }
 
 li {
     list-style-type: none;
+}
+
+ul li ul li div.apparaitre {
+    display: none;
+}
+
+img {
+    height: auto ;
+    max-width: 100%;
 }
 
 @media screen and (max-width: 856px) {

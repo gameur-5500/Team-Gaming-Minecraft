@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Team Gaming Minecraft</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="icon" href="css/img/logo creeper.ico" />
+    <script src="https://kit.fontawesome.com/c7b012a4c4.js" crossorigin="anonymous"></script>
+    <meta name="description" content="Rejoignez notre serveur Team gaming minecraft et amusez-vous bien avec des amis">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-173156026-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-173156026-1');
+    </script>
+
+
+</head>
+
+<body class="Acceuil">
+ 
+   <div class="background">
+        
+    <div id="toutemaison">
+        
+        <p><i class="fas fa-home" id="maison"></i>Stay home! Don't put your life in danger.
+
+            <button id="maison2"><i class="fas fa-times"></i></button></p>
+        
+       <script>
+        const contents = document.getElementById('maison2');
+            contents.addEventListener('click', function() {          
+            const contents2 = document.getElementById('toutemaison');
+            contents2.style.display = "none"; 
+
+                const contents3 = document.getElementById('navigationmaison');
+                contents3.style.top = '60px' ;
+                const contents4 = document.getElementById('navigationmaison2');
+                contents4.style.top = '60px';
+                const contents5 = document.getElementById('responsive3');
+                contents5.style.top = '43px' ;
+                const contents6 = document.getElementById('navigationmaison5');
+                contents6.style.top = '60px' ; 
+                const contents7 = document.getElementById('navigationmaison6');
+                contents7.style.top = '60px' ;
+                const contents8 = document.getElementById('navigationmaison7');
+                contents8.style.top = '69px' ;
+                const contents9 = document.getElementById('navigationmaison8');
+                contents9.style.top = '-109px' ;
+                const contents10 = document.getElementById('navigationmaison9');
+                contents10.style.top = '-250px' ;
+                contents10.style.right = '-679px';
+                });
+    </script>
+    </div>        
+    <header>
+
+        <nav class="Acceuil">
+            <div class="navigationActus">
+                <a href="index.html"><img class="haut1" src="css/img/Minecraft-mon-logo-1c.png"></a>
+                <a class="navigation2" id="navigationmaison" href="actualites.html">News</a>
+                <a style="position: absolute;top: 130px;right: 140px;color: white;" id="navigationmaison5">-</a>
+                <a class="navigation3" id="navigationmaison2" href="telechargement.html">Download the minecraft mods</a>
+                <a style="position: absolute;top: 130px;right: 401px;color: white;" id="navigationmaison6">-</a>
+                <i class="fas fa-globe" style="position: absolute;top: 139px;right: 116px;" id="navigationmaison7"></i>
+                
+                <div class="langue34">
+                <ul> 
+                    <li>
+                        <a href="#" style="position: absolute;top: -40px;right: -306px;text-decoration: none;" id="navigationmaison8">English</a>
+                        <ul>
+                            <li>
+                                <a href="https://gameur-5500.github.io/TGM/fr-fr/index.html" style="position: absolute;top: -184px;right: -678px;text-decoration: none;" id="navigationmaison9">Français</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav> 
+                    <div class="responsive">
+                        
+                       <div class="haut3"><a href="#"><img class="haut1" src="css/img/Minecraft-mon-logo-1c.png" id="responsive34"></a></div>
+                        <ul>
+                            <li>
+                                <button id="responsive3">
+                                    <i class="fas fa-bars"></i>
+                                </button>
+                                <div id="responsive2">
+                            <ul>
+                                <li>
+                                    <a class="responsivea" href="https://gameur-5500.github.io/Team-Gaming-V2/" target="_blanck">Our Official Website</a>
+                                </li>
+                                <li>
+                                    <a class="responsivea" href="actualites.html">News</a> 
+                                </li>
+                                <li>
+                                    <a class="responsivea" href="telechargement.html">Download the minecraft mods</a>
+                                </li>
+                                <li id="langue35">
+                                    <ul>
+                                        <li style="border-bottom: black solid 10px;">
+                                            <i class="fas fa-globe" style="padding-right: 5px;color: white;"></i><button style="color: white;
+                                            background-color: black;">English</button>
+                                              <ul>
+                                                  <li id="langue37" style="display: none;">
+                                                    <a href="https://gameur-5500.github.io/TGM/fr-fr/index.html" style="text-decoration: none;color: white;">Français</a>
+                                                  </li>
+                                              </ul>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </li>
+                    </ul>
+                        
+                    </div>
+
+                    <script>
+                        const responsive = document.getElementById('responsive3');
+                        responsive.addEventListener('click', function() {          
+                            const responsive2 = document.getElementById('responsive2');
+                            if(responsive2.style.display=="block"){
+                            responsive2.style.display="none";
+                            const responsive3 = document.getElementById('responsive34');
+                            responsive3.style.borderBottom = 'none';
+                            responsive.innerHTML = '<i class="fas fa-bars"></i>';
+                            }else{
+                            responsive2.style.display="block";
+                            const responsive3 = document.getElementById('responsive34');
+                            responsive3.style.borderBottom = '1px solid white';
+                            responsive.innerHTML = '<i class="fas fa-times"></i>'
+                            }
+  }); 
+                    </script>
+                    <script>
+                        const langue = document.getElementById('langue35');
+                        langue.addEventListener('click', function() {          
+                        const langue2 = document.getElementById('langue37');
+                        if(langue2.style.display=="block"){
+                        langue2.style.display="none";
+                        }else{
+                        langue2.style.display="block";
+                        }  });
+                </script>
+              
+   
+                </header>
+  
+ 
+   
+  
+  <br>
+
+  <h1 class="body">WELCOME TO <br> TEAM GAMING MINECRAFT <i class="far fa-laugh-beam"></i></h1>
+
+  <br>
+
+  <div class="body">
+  
+   <img class="hautx2" src="css/img/home-hero-1200x600.png">
+
+   <a href="#top" id="miaou" style="background-color: black;padding-right: 11px;padding-left: 11px;border-radius: 5px;bottom: 40px;right: 20px;z-index: 999;height: 40px;position: fixed;padding-top: 10px;opacity: 0.8;"><i class="fas fa-chevron-up"></i></a>
+       
+    <br><br>
+
+    
+    
+    <h2>Presentation</h2>
+
+    <p> - We remake this minecraft server to celebrate the 2nd version of Team Gaming. To learn more about this new version, please visit our official Team Gaming website.</p>
+       
+       <br>
+
+       <div class="trait"></div>
+
+       <br>
+
+        <h2>
+            Buy minecraft
+       </h2>
+       <p>
+        To buy minecraft java edition, you have to click on <a href="https://www.minecraft.net/fr-fr/get-minecraft" target="_blanck">this link</a> To buy minecraft java edition, you have to click on this link to go to the minecraft website after choosing: computer - your operating system (either <i class="fab fa-windows" style="padding-left: 4px;"></i> windows <i class="fab fa-apple"></i> mac , or <i class="fab fa-linux"></i> linux - minecraft java edition (warning the server is only available on this version for the moment) - place your order and try the game <i class="fas fa-gamepad"></i>  
+       </p>
+<br>
+       <p>
+        To learn more about Minecraft, please visit their <a href="https://www.minecraft.net/fr-fr/" target="_blanck">official website</a>
+        </p>
+
+        <br>
+
+        <div class="trait"></div>
+
+        <br>
+
+       <h2>
+        Join our Minecraft server
+       </h2>
+       <p>
+        And to join our server, go to: the game menu - multiplayer - fast connection - enter the server ip address we will give you soon in twitter. 
+        </p>
+
+        <br>
+
+        <div class="trait"></div>
+
+        <br>
+
+        <h2 style="padding-bottom: 15px;">Mods available in the server</h2>
+       <div><a href="https://gameur-5500.github.io/TGM/css/img/decocraft.png" target="_blank"><img style="border: black 2px solid;" src="css/img/decocraft.png"></a><p>Decocraft</p></div>
+       <div>The Decocraft mod is a mod that brings a lot of items (decoration) to your game which makes this mod interesting.</div><br>
+       <div><a href="https://gameur-5500.github.io/TGM/css/img/ptr lib.png" target="_blank"><img style="border: black 2px solid;" src="css/img/ptr lib.png"></a><p>Ptr Lib</p></div>
+       <div>PTRLib 1.12.2 is a craft importer and rendering library.</div><br>
+       <div><a href="https://gameur-5500.github.io/TGM/css/img/mo money.png" target="_blank"><img style="border: black 2px solid;" src="css/img/mo money.png"></a><p>Mo Money</p></div>
+       <div>The Mo Money mod adds currency to the game and not only that, it also adds a bank. <i class="far fa-grin-stars" class="font-size: 19px;"></i>.</div><br>
+       <div><a href="https://gameur-5500.github.io/TGM/css/img/flans mod.png" target="_blank"><img style="border: black 2px solid;" src="css/img/flans mod.png"></a><p>flans mod</p></div>
+       <div>Flan's is a mod that brings vehicles and weapons to Minecraft.</div><br>
+       <div><a href="https://gameur-5500.github.io/TGM/css/img/security craft.png" target="_blank"><img src="css/img/security craft.png" style="border: black solid 2px;"></a><p>Security craft</p>The security craft is a mod that allows to add equipment to protect its construction.</div>
+       <br>
+          <br>
+          <div class="trait"></div>
+          <br>
+   
+         <h2 style="padding-bottom: 15px;">Shader pack available in the server</h2>
+
+         <div><a href="https://gameur-5500.github.io/TGM/css/img/SEUS-Renewed-v1.0.1.png" target="_blank"><img style="border: black solid 2px;" src="css/img/SEUS-Renewed-v1.0.1.png"></a><p>SEUS-Renewed-v1.0.1</p></div>
+         
+         <div><p>This shader pack is just awesome it brings the game a nice cool scenery no ? <i class="far fa-grin-wink"></i></p></div>
+   
+         <br>
+         <div class="trait"></div>
+          <br>
+         
+         <div class="4"><img src=""></div>
+   
+         <h2>Server info</h2>
+   
+         <p>The server accepts cracked versions of the game</p>
+   
+         <p>The server contains: 5 mods and 1 shaderpack</p>
+   
+         <p>Server version: 1.12.2</p>
+   
+         <p>the mode of the server is in creative</p>
+   
+         <p>Server IP: the server is still not available</p>
+    
+    <br>
+   
+
+    </div>     
+</body>
+
+<footer>
+
+    <div class="footer non">
+        
+        <br>
+
+        <p>
+            <i class="fas fa-users" style="color: white; padding-right: 5px;"></i>This site was created by Adam Riche (Team Gaming) 
+        </p>
+
+        <div class="footer oui">
+                <a href="https://www.facebook.com/TeamGamingV2/" target="_blanck"><img class="haut" src="css/img/FB.png"></a>
+                <a href="https://twitter.com/TeamGamingV21" target="_blanck"><img class="haut" src="css/img/twitter.png"></a>
+                <a href="https://www.youtube.com/channel/UCte7x_i9DRbhF2nJHp_v5YA" target="_blanck"><img class="haut" src="css/img/YT.png"></a>
+                <a href="mailto:teamgamingv2@hotmail.com"><img class="haut" src="css/img/email.png"></a>
+        </div>
+    </div>
+</div> 
+</footer>
+
+</html>

@@ -1,0 +1,301 @@
+
+@font-face 
+
+{  font-family: OpenSans-Light ; 
+    src: url('fonts/OpenSans-Light.ttf') 
+    }
+
+@font-face {
+    font-family: OpenSans-Bold ; 
+    src: url('fonts/OpenSans-Bold.ttf')
+}  
+
+li.langue35 ul li ul li#langue37 {
+    display: none;
+}
+
+div.langue34 ul li {
+    position: absolute;
+top: 170px;
+right: 365px;
+text-decoration: none;
+}
+
+ul li ul li div.apparaitre:hover {
+    display: block;
+}
+
+div.langue34 ul li ul li{
+    position: absolute;
+    top: 170px;
+    right: 365px;
+    text-decoration: none;
+    display: none;
+}
+
+div.langue34 ul li:hover ul li{
+    display: block;
+}
+    
+div.background {
+    background-color: white;
+}
+
+div.navigationActus {
+    margin-right: -6px;
+    background-color: black;
+    color: white;
+    font-family: 'OpenSans-Light' ;
+    margin-left: -6px;
+}
+
+#maison {
+    color: gray;
+    padding-right: 11px;
+}
+
+#maison2 {
+    margin-left: 11px;
+    cursor: pointer;
+}
+#toutemaison {
+    padding-top: 3px;
+}
+
+#toutemaison2 {
+    padding-bottom: 3px;
+    padding-top: 3px;
+    background-color: #ededed;
+    margin-left: -6px;
+    margin-right: -6px;
+}
+
+
+img.hautx2 {
+    height: auto ;
+    max-width: 100%;
+    border: 2px solid black 
+}
+
+div.body {
+    text-align: center;
+    font-family: 'OpenSans-Light';
+}
+
+h1{
+    text-align: center;
+    font-family: 'OpenSans-Bold';
+    font-weight: 500;
+}
+
+p {
+    font-family: 'OpenSans-Light';
+    text-align: center;
+}
+
+img.haut1 {
+    width: 370px;
+}
+     
+div.responsive {
+    display: none;
+    background-color: black;
+    color: green;
+    font-size: 16px;
+}
+
+body.Acceuil {
+    background-color: black;
+    line-height: 30px;
+}
+
+div.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'OpenSans-Light';
+}
+
+div.trait {
+    background: linear-gradient(to right,#317511 0%,#3e83d7 100%);
+    border-radius: 5px;
+    width: 100px;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a.responsivea {
+    font-family: 'OpenSans-Light';
+    text-decoration: none;
+}
+
+img.haut {
+    width: 45px;
+    height: 45px;
+}
+
+    a:hover {
+        -webkit-transition: all 0.91s ease;
+        color: #0177ba;
+    }
+
+    #langue2 {
+        display: none;
+        background-color: black;
+    }
+
+    a {
+        color: #327812;
+        font-size: 16px;
+    }
+
+    a.navigation2 {
+        position: absolute;
+        right: 410px;
+        top: 130px;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    a.navigation3 {
+        position: absolute;
+        right: 150px;
+        top: 130px;
+        text-decoration: none;
+        font-size: 18px;
+}
+    div.navigation {
+        background-color: black;
+        color: white;
+        font-family: 'OpenSans-Light' ;
+    }       
+    
+h1 , h2 , div.footer {
+    text-transform: uppercase;
+}
+
+div.haut3 {
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+}
+
+div.footer2 {
+    border-top: 2px solid black ;
+    text-align: center;
+    position: relative;
+    bottom: -90px;
+}
+
+div.footer3 {
+    border-top: 2px solid black ;
+    text-align: center;
+    position: relative;
+    bottom: 9px;
+}
+
+#responsive2 {
+    display:none
+}
+
+#responsive3 {
+    position: absolute;
+    right: 20px;
+    top: 110px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: white;
+}
+
+body.actu {
+   background-image: url(img/PS4.png);
+    line-height: 30px;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul li ul li div.apparaitre {
+    display: none;
+}
+
+img {
+    height: auto ;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 856px) {
+    a.navigation2 {
+        position: absolute;
+        right: 51px;
+        top: 120px;
+        text-decoration: none;
+        font-size: 16px;
+    } 
+
+    #toutemaison2 {
+        padding-bottom: 3px;
+        padding-top: 3px;
+        background-color: #ededed;
+        margin-left: -0px;
+        margin-right: -0px;
+    }
+
+    a.navigation3 {
+        position: absolute;
+        right: 5px;
+        top: 140px;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    #maison2 {
+        font-size: 16px;
+    }
+
+    img.haut1 {
+        text-align: center;
+    }
+
+    div.navigation {
+        display: none;
+    }
+
+    div.responsive {
+        display: block;
+        background-color: black;
+    }
+
+    img.haut1 {
+        width: 200px;
+    }
+
+    div.navigationActus {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 530px) {
+    #responsive3 {
+        position: absolute;
+        right: 20px;
+        top: 130px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 529px) {
+    #responsive3 {
+        position: absolute;
+        right: 20px;
+        top: 140px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
