@@ -21,6 +21,32 @@ right: 365px;
 text-decoration: none;
 }
 
+.mods2 {
+    font-weight: 900;
+    font-style: italic;
+    font-size: 22px;
+    color: aqua;
+}
+
+h1 {
+    margin-bottom: -130px;
+    opacity: 0.9;
+}
+
+#monter {
+    background-color: black;
+    padding-right: 11px;
+    padding-left: 11px;
+    border-radius: 5px;
+    bottom: 40px;
+    right: 20px;
+    z-index: 999;
+    height: 40px;
+    position: fixed;
+    padding-top: 10px;
+    opacity: 0.8;
+}
+
 ul li ul li div.apparaitre:hover {
     display: block;
 }
@@ -31,6 +57,51 @@ div.langue34 ul li ul li{
     right: 365px;
     text-decoration: none;
     display: none;
+}
+
+.mods3 {
+    padding-bottom: 15px;
+}
+
+.infos {
+    border-radius: 0.6pc;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-right-width: 2px;
+    border-right-style: solid;
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+.mods4 {
+    font-size: 22px;
+}
+
+#tools {
+    font-size: 22px;
+    margin-top: 11px;
+}
+
+#team {
+    color: white;
+     padding-right: 5px;
+}
+
+.modes {
+    background-image: url('img/obsidienne.png');
+    color: white;
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-bottom: 0px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-radius: 2.1pc;
 }
 
 div.langue34 ul li:hover ul li{
@@ -237,6 +308,15 @@ img {
         font-size: 16px;
     } 
 
+    div.modes {
+        margin-right: 1px;
+        margin-left: 1px;
+    }
+    div.infos {
+        margin-right: 1px;
+        margin-left: 1px;
+    }
+
     #toutemaison2 {
         padding-bottom: 3px;
         padding-top: 3px;
@@ -288,6 +368,14 @@ img {
         font-size: 16px;
         cursor: pointer;
     }
+    div.modes {
+        margin-right: 1px;
+        margin-left: 1px;
+    }
+    div.infos {
+        margin-right: 1px;
+        margin-left: 1px;
+    }
 }
 
 @media screen and (max-width: 529px) {
@@ -297,5 +385,13 @@ img {
         top: 140px;
         font-size: 16px;
         cursor: pointer;
+    }
+    div.modes {
+        margin-right: 1px;
+        margin-left: 1px;
+    }
+    div.infos {
+        margin-right: 1px;
+        margin-left: 1px;
     }
 }
