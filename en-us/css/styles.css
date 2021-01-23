@@ -14,6 +14,11 @@ li.langue35 ul li ul li#langue37 {
     display: none;
 }
 
+h1.body{
+    margin-bottom: -130px;
+    opacity: 0.9;
+}
+
 div.langue34 ul li {
     position: absolute;
 top: 170px;
@@ -26,11 +31,6 @@ text-decoration: none;
     font-style: italic;
     font-size: 22px;
     color: aqua;
-}
-
-h1 {
-    margin-bottom: -130px;
-    opacity: 0.9;
 }
 
 #monter {

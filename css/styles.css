@@ -28,11 +28,6 @@ text-decoration: none;
     color: aqua;
 }
 
-h1 {
-    margin-bottom: -130px;
-    opacity: 0.9;
-}
-
 #monter {
     background-color: black;
     padding-right: 11px;
@@ -141,6 +136,10 @@ div.navigationActus {
     margin-right: -6px;
 }
 
+h1.body{
+    margin-bottom: -130px;
+    opacity: 0.9;
+}
 
 img.hautx2 {
     height: auto ;
