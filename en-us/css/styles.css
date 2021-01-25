@@ -15,7 +15,7 @@ li.langue35 ul li ul li#langue37 {
 }
 
 h1.body{
-    margin-bottom: -130px;
+    margin-bottom: -135px;
     opacity: 0.9;
 }
 
@@ -143,9 +143,10 @@ div.navigationActus {
 
 
 img.hautx2 {
-    height: auto ;
-    max-width: 100%;
-    border: 2px solid black 
+     height: auto ;
+     max-width: 100%;
+     border: 2px solid black;
+     margin-top: -25px; 
 }
 
 div.body {
