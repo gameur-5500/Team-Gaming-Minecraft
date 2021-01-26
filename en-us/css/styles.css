@@ -17,6 +17,8 @@ li.langue35 ul li ul li#langue37 {
 h1.body{
     margin-bottom: -135px;
     opacity: 0.9;
+    margin-left: 25px;
+    text-align: left;
 }
 
 div.langue34 ul li {
@@ -147,6 +149,7 @@ img.hautx2 {
      max-width: 100%;
      border: 2px solid black;
      margin-top: -25px; 
+     width: 100%;
 }
 
 div.body {
@@ -377,6 +380,13 @@ img {
         margin-right: 1px;
         margin-left: 1px;
     }
+    img.hautx2{
+        margin-top: -76px;
+    }
+    h1.body {
+        margin-bottom: 196px;
+        position: absolute;
+    }
 }
 
 @media screen and (max-width: 529px) {
@@ -394,5 +404,13 @@ img {
     div.infos {
         margin-right: 1px;
         margin-left: 1px;
+    }
+    img.hautx2{
+        margin-top: -76px;
+    }
+    h1.body {
+        margin-bottom: -90px;
+        position: absolute;
+        top: 196px;
     }
 }
