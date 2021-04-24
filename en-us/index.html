@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="icon" href="css/img/logo creeper.ico" />
     <script src="https://kit.fontawesome.com/c7b012a4c4.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
     <meta name="description" content="Rejoignez notre serveur Team gaming minecraft et amusez-vous bien avec des amis">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-173156026-1"></script>
@@ -133,8 +134,6 @@
                             responsive3.style.borderBottom = '1px solid white';
                             responsive.innerHTML = '<i class="fas fa-times"></i>'
                             }
-                            const titre = document.getElementsById('body2')
-                            titre.style.top == '359px'
   }); 
                     </script>
                     <script>
@@ -150,10 +149,22 @@
               
    
                 </header>
-  
- 
-   
-  
+
+                <script>
+                    jQuery(function(){
+            $(function () {
+                $(window).scroll(function () { //Fonction appelée quand on descend la page
+                    if ($(this).scrollTop() > 200 ) {  // Quand on est à 200pixels du haut de page,
+                        $('#scrollUp').css('display','block'); // Replace à 10pixels de la droite l'image
+                    } else { 
+                        $('#scrollUp').removeAttr( 'style' ); // Enlève les attributs CSS affectés par javascript
+                    }
+                });
+            });
+        });
+         
+                </script>
+        
   <br>
 
   <h1 class="body" id="body2">WELCOME TO <br> TEAM GAMING MINECRAFT <i class="far fa-laugh-beam"></i></h1>
@@ -163,22 +174,8 @@
   <div class="body">
   
    <a href="https://gameur-5500.github.io/TGM/css/img/home-hero-1200x600.png"><img class="hautx2" src="css/img/home-hero-1200x600.png"></a>
-
-   <a href="#top" id="tp_to_top" style="background-color: black;padding-right: 11px;padding-left: 11px;border-radius: 5px;bottom: 40px;right: 20px;z-index: 999;height: 40px;position: fixed;padding-top: 10px;opacity: 0.8;"><i class="fas fa-chevron-up"></i></a>
        
     <br><br>
-
-    
-    
-    <h2>Reason for recreating the TGM server</h2>
-
-    <p> - We remake this minecraft server to celebrate the 2nd version of Team Gaming. To learn more about this new version, please visit our official Team Gaming website.</p>
-       
-       <br>
-
-       <div class="trait"></div>
-
-       <br>
 
         <h2>
             Buy minecraft
@@ -276,5 +273,9 @@
     </div>
 </div> 
 </footer>
+
+<div id="scrollUp"> 
+    <a href="#top" id="tp_to_top"><i class="fas fa-chevron-up"></i></a>
+    </div>
 
 </html>

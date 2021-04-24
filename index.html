@@ -6,6 +6,7 @@
     <title>Acceuil | Team Gaming Minecraft</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="icon" href="css/img/logo creeper.ico" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/c7b012a4c4.js" crossorigin="anonymous"></script>
     <meta name="description" content="Rejoignez notre serveur Team gaming minecraft et amusez-vous bien avec des amis">
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -81,7 +82,7 @@
 
                     <div class="responsive">
                         
-                       <div class="haut3"><a href="#"><img class="haut1" src="css/img/Minecraft-mon-logo-1c.png" id="responsive34"></a></div>
+                        <div class="haut3"><a href="#"><img class="haut1" src="css/img/Minecraft-mon-logo-1c.png" id="responsive34"></a></div>
                         <ul>
                             <li>
                                 <button id="responsive3">
@@ -90,13 +91,13 @@
                                 <div id="responsive2">
                             <ul>
                                 <li>
-                                    <a class="responsivea" href="https://gameur-5500.github.io/TG/" target="_blanck">Notre Site Officiel</a>
+                                    <a class="responsivea" href="https://gameur-5500.github.io/TG/" target="_blanck">Notre site officiel</a>
                                 </li>
                                 <li>
-                                    <a class="responsivea" href="actualites.html">Actualités</a>
+                                    <a class="responsivea" href="actualites.html">Actus</a> 
                                 </li>
-                                <li  style="border-bottom: 10px black solid;">
-                                    <a class="responsivea" href="telechargement.html">Telechargement</a>
+                                <li>
+                                    <a class="responsivea" href="telechargement.html">telechargement</a>
                                 </li>
                                 <li id="langue35">
                                     <ul>
@@ -105,15 +106,14 @@
                                             background-color: black;">Français</button>
                                               <ul>
                                                   <li id="langue37" style="display: none;">
-                                                    <a href="https://gameur-5500.github.io/TGM/en-us/index.html" style="text-decoration: none;color: white;">English</a>
+                                                    <a href="https://gameur-5500.github.io/TGM/en-us" style="text-decoration: none;color: white;">English</a>
                                                   </li>
                                               </ul>
                                         </li>
                                     </ul>
                             </div>
                         </li>
-                    </ul>
-                        
+                    </ul>            
                     </div>
 
                     <script>
@@ -123,25 +123,23 @@
                             if(responsive2.style.display=="block"){
                             responsive.style.transition = 'all 1.0s ease';
                             responsive2.style.display="none";
-                            const responsive3 = document.getElementById('responsive34');
+                            const responsive3 = document.getElementById('responsivelogonav');
                             responsive3.style.borderBottom = 'none';
                             responsive.innerHTML = '<i class="fas fa-bars"></i>';
                             }else{
                             responsive.style.transition = 'all 1.0s ease';
                             responsive2.style.display="block";
-                            const responsive3 = document.getElementById('responsive34');
+                            const responsive3 = document.getElementById('responsivelogonav');
                             responsive3.style.borderBottom = '1px solid white';
                             responsive.innerHTML = '<i class="fas fa-times"></i>'
                             }
-                            const titre = document.getElementsById('body2')
-                            titre.style.top = '359px'
   }); 
                     </script>
                     <script>
-                        const langue = document.getElementById('langue35');
+                       const langue = document.getElementById('langue35');
                         langue.addEventListener('click', function() {          
                         const langue2 = document.getElementById('langue37');
-                        if(langue2.style.display="block"){
+                        if(langue2.style.display=="block"){
                         langue2.style.display="none";
                         }else{
                         langue2.style.display="block";
@@ -163,21 +161,20 @@
    <a href="https://gameur-5500.github.io/TGM/css/img/home-hero-1200x600.png" target="_blank"><img class="hautx2" src="css/img/home-hero-1200x600.png"></a>
        
     <br><br>
-
-    <div>
-    <a href="#top" id="tp_to_top"><i class="fas fa-chevron-up"></i></a>
-</div>
-    <h2>Raison de recréation du serveur TGM</h2>
-
-    <p> - Nous avons refait ce serveur minecraft 
-        pour fêter la 2 eme version de team gaming pour en savoir plus sur cette 
-        nouvelle version allez visiter notre site officiel Team Gaming .</p>
-       
-       <br>
-
-       <div class="trait"></div>
-
-       <br>
+        <script>
+            jQuery(function(){
+    $(function () {
+        $(window).scroll(function () { //Fonction appelée quand on descend la page
+            if ($(this).scrollTop() > 200 ) {  // Quand on est à 200pixels du haut de page,
+                $('#scrollUp').css('display','block'); // Replace à 10pixels de la droite l'image
+            } else { 
+                $('#scrollUp').removeAttr( 'style' ); // Enlève les attributs CSS affectés par javascript
+            }
+        });
+    });
+});
+ 
+        </script>
 
         <h2>
            Acheter minecraft
@@ -272,5 +269,9 @@
     </div>
 </div> 
 </footer>
+
+<div id="scrollUp"> 
+    <a href="#top" id="tp_to_top"><i class="fas fa-chevron-up"></i></a>
+    </div>
 
 </html>

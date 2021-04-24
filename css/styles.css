@@ -28,20 +28,6 @@ text-decoration: none;
     color: aqua;
 }
 
-#tp_to_top {
-    background-color: black;
-    padding-right: 11px;
-    padding-left: 11px;
-    border-radius: 5px;
-    bottom: 40px;
-    right: 20px;
-    z-index: 999;
-    height: 40px;
-    position: fixed;
-    padding-top: 10px;
-    opacity: 0.8;
-}
-
 ul li ul li div.apparaitre:hover {
     display: block;
 }
@@ -200,6 +186,21 @@ div.trait {
     margin-right: auto;
 }
 
+#scrollUp {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    z-index: 999;
+    height: 40px;
+    padding-top: 10px;
+    opacity: 0.8;
+    display: none;
+    background-color: black;
+    padding-right: 11px;
+    padding-left: 11px;
+    border-radius: 5px;
+}
+
 a.responsivea {
     font-family: 'OpenSans-Light';
     text-decoration: none;
@@ -300,7 +301,7 @@ ul li ul li div.apparaitre {
 
 img {
     height: auto ;
-    max-width: 100%;
+    width: 300px;
 }
 
 @media screen and (max-width: 856px) {
@@ -409,8 +410,12 @@ img {
         margin-top: -76px;
     }
     h1.body {
-        margin-bottom: -90px;
-        position: absolute;
-        top: 196px;
+        margin-top: -8px;
+    }
+}
+@media screen and (max-width: 320px) {
+    img{
+        width: 61%;
+        max-width: 61%;
     }
 }
